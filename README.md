@@ -2,6 +2,8 @@
 
 This is a simple proof-of-concept showing how [Tableau Server](www.tableausoftware.com) and [Liferay](www.liferay.com) can be integrated in the form of a portlet. This portlet shows a specific view from the Tableau Server sample data set, for the specific user that is logged into Liferay. 
 
+![screenshot](https://cloud.githubusercontent.com/assets/9715543/5218971/eb58ea90-7652-11e4-87b8-fdb9a396d94c.png)
+
 This portlet uses Tableau Server's REST API to get a "trusted ticket" for the current portal user. Using this trusted ticket, it shows the specific view using Tableau Server's Javascript API.
 
 To run the portlet, first enable Tableau Server's REST API and Trusted Authentication:
